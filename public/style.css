@@ -1,0 +1,199 @@
+/*
+The Theme name: MyTheme
+Author: Group 02
+*/
+
+
+#home-page-image {
+    border: #fafafa 2px dotted;
+    height: auto;
+    width: 100%;
+}
+
+#home-page-top-banner {
+    padding: 30px 80px;
+    position: absolute;
+    background-color: #005eb8;
+    color: #fff;
+    top: 350px;
+    left: 302px;
+    font-size: 20px;
+}
+
+#home-page-top-banner-triangle {
+    background-color: #005eb8;
+    height: 25px;
+    width: 25px;
+    top: 525px;
+    left: 405px;
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+
+body, html {
+    font-size: 15px;
+    font-family: Frutiger W01,Arial,Sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Below is css style for nav bar*/
+nav {
+    position: relative;
+    height: 70px;
+    box-shadow: 4px 4px 10px #f7f7f7;
+}
+
+nav li a {
+    font-family: Open Sans, Lato, sans-serif;
+    color: #333333;
+    display: block;
+    padding: 0 13px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+nav ul {
+    background: white;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    height: inherit;
+}
+
+nav li:hover {
+    opacity: .8;
+    background-color: #fafafa;
+}
+
+nav a:hover {
+    color: #890125;
+}
+
+.nav_btn {
+    float: left;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin-left: 10px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav_btn_ex {
+    float: right;
+    height: inherit;
+    margin-right: 10px;
+}
+
+.nav_btn_in {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+#below_nar {
+    background-color: #f7f7f7;
+    padding-top: 20px;
+}
+
+
+#main-content {
+    flex: 75%;
+    max-width: 75%;
+    margin: 0;
+    padding: 0;
+}
+
+#main-content-left {
+
+}
+
+#main {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    margin-top: 120px;
+}
+
+
+
+#main-content-right {
+    flex: 25%;
+    max-width: 25%;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #fafafa;
+    background-color: white;
+    list-style-type: none;
+    max-height: 400px;
+    height: auto;
+    margin-left: 20px;
+    box-shadow: 2px 2px 3px #d7d1d1;
+
+}
+
+.widget {
+    color: black;
+    padding-left: 20px;
+}
+
+.right-words {
+    font-family: 'Quicksand';
+    font-size: 24px;
+}
+
+.right-title {
+    font-weight: bold;
+}
+
+footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #d8dde0;
+    padding-left: 700px;
+    border-top: 4px solid #005eb8;
+}
+.main-content-left-paragraph {
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 3px #d7d1d1;
+    background-color: white;
+    padding: 30px 50px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #fafafa;
+
+}
+
+.main-content-left-paragraph-insidebanner {
+    text-align: center;
+    flex: 25%;
+    font-size: 10px;
+    font-family: Frutiger W01,Arial,Sans-serif;
+    color: #4c6272;
+}
+
+.main-content-left-paragraph-insidebanner h1{
+    text-align: center;
+    font-size: 20px;
+    font-family: Frutiger W01,Arial,Sans-serif;
+    color: black;
+    margin-bottom: 3px;
+}
+
+a {
+    color: #005eb8;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #7c2855;
+}
